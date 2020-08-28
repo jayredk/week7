@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="香水電商">
+  <meta property="og:description" content="week7mission">
+  <meta property="og:site_name" content="香水電商">
+  <meta property="og:locale" content="zh_TW">
+  <title>D'PERFUME</title>
+  <link rel="shortcut icon" href="images/d’Perfume.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+  <!------------------------ header ---------------------------->
+  <nav class="navbar navbar-expand-md bg-white">
+    <header class="container">
+      <h1 class="mb-0">
+        <a class="logo navbar-brand" href="/index.html">D'PERFUME</a>
+      </h1>
+      <div class="d-flex d-md-none justify-content-center align-items-center">
+        <a class="position-relative text-dark mr-3" href="#">
+          <i class="fas fa-shopping-cart">
+          </i>
+          <span class="cartNum text-center text-white bg-primary">3</span>
+        </a>
+        <button class="hamIcon btn text-dark" type="button"><i class="fas fa-bars"></i></button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link navbar-text text-dark" href="/product.html"><i class="fas fa-tshirt px-1"></i>Product</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link navbar-text text-dark" href="/login.html"><i class="fas fa-user px-1"></i>log in</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link navbar-text text-dark" href="#"><i class="fas fa-heart px-1"></i>Wishlist</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link navbar-text text-dark" href="#"><i class="fas fa-shopping-cart px-1"></i>Cart(3)</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </nav>
+
+  <!------------------------ navs ---------------------------->
+  <div class="d-none d-md-block bg-primary">
+    <div class="container">
+      <ul class="navs nav">
+        <li>
+          <a class="nav-link ml-n3 text-info" href="#">CHANEL</a>
+        </li>
+        <li>
+          <a class="nav-link text-info" href="#">Jo Malone</a>
+        </li>
+        <li>
+          <a class="nav-link text-info" href="#">Curology</a>
+        </li>
+        <li>
+          <a class="nav-link text-info" href="#">Dior</a>
+        </li>
+        <li>
+          <a class="nav-link text-info" href="#">Chloe</a>
+        </li>
+        <li>
+          <a class="nav-link text-info" href="#">ZARA</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!------------------------ productList ---------------------------->
+  <div class="container">
+    <ul class="row list-unstyled">
+      <li class="col-6 col-md-3 my-32 my-md-6">
+        <div class="card border-0">
+          <a class="card-img-top" href="#">
+            <img src="./images/1@2x.png" alt="Poppy & Barley">
+          </a>
+          <div class="card-body p-0 pt-1">
+            <h4 class="card-title">Poppy & Barley</h5>
+            <p class="card-subtitle">Jo Malone</p>
+            <p class="card-text mb-0">NT$1,380<del class="text-dark ml-2">NT$1,580</del></p>
+            <button type="button" class="btn p-0 mr-1 text-primary" data-toggle="modal" data-target="#favModal">
+              <i class="fas fa-heart"></i>
+            </button>
+            <button type="button" class="btn p-0 text-primary" data-toggle="modal" data-target="#cartModal">
+              <i class="fas fa-shopping-cart""></i>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="col-6 col-md-3 my-32 my-md-6">
+        <div class="card border-0">
+          <a class="card-img-top" href="#">
+            <img src="./images/2@2x.png" alt="Poppy & Barley">
+          </a>
+          <div class="card-body p-0 pt-1">
+            <h4 class="card-title">Poppy & Barley</h5>
+            <p class="card-subtitle">Jo Malone</p>
+            <p class="card-text mb-0">NT$1,380<del class="text-dark ml-2">NT$1,580</del></p>
+            <button type="button" class="btn p-0 mr-1 text-primary" data-toggle="modal" data-target="#favModal">
+              <i class="fas fa-heart"></i>
+            </button>
+            <button type="button" class="btn p-0 text-primary" data-toggle="modal" data-target="#cartModal">
+              <i class="fas fa-shopping-cart""></i>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="col-6 col-md-3 my-32 my-md-6">
+        <div class="card border-0">
+          <a class="card-img-top" href="#">
+            <img src="./images/3@2x.png" alt="Poppy & Barley">
+          </a>
+          <div class="card-body p-0 pt-1">
+            <h4 class="card-title">Poppy & Barley</h5>
+            <p class="card-subtitle">Jo Malone</p>
+            <p class="card-text mb-0">NT$1,580</p>
+            <button type="button" class="btn p-0 mr-1 text-primary" data-toggle="modal" data-target="#favModal">
+              <i class="fas fa-heart"></i>
+            </button>
+            <button type="button" class="btn p-0 text-primary" data-toggle="modal" data-target="#cartModal">
+              <i class="fas fa-shopping-cart""></i>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="col-6 col-md-3 my-32 my-md-6">
+        <div class="card border-0">
+          <a class="card-img-top" href="#">
+            <img src="./images/4@2x.png" alt="Poppy & Barley">
+          </a>
+          <div class="card-body p-0 pt-1">
+            <h4 class="card-title">Poppy & Barley</h5>
+            <p class="card-subtitle">Jo Malone</p>
+            <p class="card-text mb-0">NT$1,580</p>
+            <button type="button" class="btn p-0 mr-1 text-primary" data-toggle="modal" data-target="#favModal">
+              <i class="fas fa-heart"></i>
+            </button>
+            <button type="button" class="btn p-0 text-primary" data-toggle="modal" data-target="#cartModal">
+              <i class="fas fa-shopping-cart""></i>
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="row list-unstyled">
+      <li class="col-6 col-md-3 my-32 my-md-6">
+        <div class="card border-0">
+          <a class="card-img-top" href="#">
+            <img src="./images/5@2x.png" alt="Poppy & Barley">
+          </a>
+          <div class="card-body p-0 pt-1">
+            <h4 class="card-title">Poppy & Barley</h5>
+            <p class="card-subtitle">Jo Malone</p>
+            <p class="card-text mb-0">NT$1,380<del class="text-dark ml-2">NT$1,580</del></p>
+            <button type="button" class="btn p-0 mr-1 text-primary" data-toggle="modal" data-target="#favModal">
+              <i class="fas fa-heart"></i>
+            </button>
+            <button type="button" class="btn p-0 text-primary" data-toggle="modal" data-target="#cartModal">
+              <i class="fas fa-shopping-cart""></i>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="col-6 col-md-3 my-32 my-md-6">
+        <div class="card border-0">
+          <a class="card-img-top" href="/product-chanel.html">
+            <img src="./images/6@2x.png" alt="Poppy & Barley">
+          </a>
+          <div class="card-body p-0 pt-1">
+            <h4 class="card-title">Poppy & Barley</h5>
+            <p class="card-subtitle">Jo Malone</p>
+            <p class="card-text mb-0">NT$1,380<del class="text-dark ml-2">NT$1,580</del></p>
+            <button type="button" class="btn p-0 mr-1 text-primary" data-toggle="modal" data-target="#favModal">
+              <i class="fas fa-heart"></i>
+            </button>
+            <button type="button" class="btn p-0 text-primary" data-toggle="modal" data-target="#cartModal">
+              <i class="fas fa-shopping-cart""></i>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="col-6 col-md-3 my-32 my-md-6">
+        <div class="card border-0">
+          <a class="card-img-top" href="#">
+            <img src="./images/7@2x.png" alt="Poppy & Barley">
+          </a>
+          <div class="card-body p-0 pt-1">
+            <h4 class="card-title">Poppy & Barley</h5>
+            <p class="card-subtitle">Jo Malone</p>
+            <p class="card-text mb-0">NT$1,580</p>
+            <button type="button" class="btn p-0 mr-1 text-primary" data-toggle="modal" data-target="#favModal">
+              <i class="fas fa-heart"></i>
+            </button>
+            <button type="button" class="btn p-0 text-primary" data-toggle="modal" data-target="#cartModal">
+              <i class="fas fa-shopping-cart""></i>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="col-6 col-md-3 my-32 my-md-6">
+        <div class="card border-0">
+          <a class="card-img-top" href="#">
+            <img src="./images/8@2x.png" alt="Poppy & Barley">
+          </a>
+          <div class="card-body p-0 pt-1">
+            <h4 class="card-title">Poppy & Barley</h5>
+              <p class="card-subtitle">Jo Malone</p>
+              <p class="card-text mb-0">NT$1,580</p>
+              <button type="button" class="btn p-0 mr-1 text-primary" data-toggle="modal" data-target="#favModal">
+                <i class="fas fa-heart"></i>
+              </button>
+              <button type="button" class="btn p-0 text-primary" data-toggle="modal" data-target="#cartModal">
+                <i class="fas fa-shopping-cart""></i>
+              </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="row list-unstyled">
+      <li class="col-6 col-md-3 my-32 my-md-6">
+        <div class="card border-0">
+          <a class="card-img-top" href="#">
+            <img src="./images/9@2x.png" alt="Poppy & Barley">
+          </a>
+          <div class="card-body p-0 pt-1">
+            <h4 class="card-title">Poppy & Barley</h5>
+              <p class="card-subtitle">Jo Malone</p>
+              <p class="card-text mb-0">NT$1,380<del class="text-dark ml-2">NT$1,580</del></p>
+              <button type="button" class="btn p-0 mr-1 text-primary" data-toggle="modal" data-target="#favModal">
+                <i class="fas fa-heart"></i>
+              </button>
+              <button type="button" class="btn p-0 text-primary" data-toggle="modal" data-target="#cartModal">
+                <i class="fas fa-shopping-cart""></i>
+              </button>
+          </div>
+        </div>
+      </li>
+      <li class="col-6 col-md-3 my-32 my-md-6">
+        <div class="card border-0">
+          <a class="card-img-top" href="#">
+            <img src="./images/10@2x.png" alt="Poppy & Barley">
+          </a>
+          <div class="card-body p-0 pt-1">
+            <h4 class="card-title">Poppy & Barley</h5>
+            <p class="card-subtitle">Jo Malone</p>
+            <p class="card-text mb-0">NT$1,380<del class="text-dark ml-2">NT$1,580</del></p>
+            <button type="button" class="btn p-0 mr-1 text-primary" data-toggle="modal" data-target="#favModal">
+              <i class="fas fa-heart"></i>
+            </button>
+            <button type="button" class="btn p-0 text-primary" data-toggle="modal" data-target="#cartModal">
+              <iass="fas fa-shopping-cart""></i>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="col-6 col-md-3 my-32 my-md-6">
+        <div class="card border-0">
+          <a class="card-img-top" href="#">
+            <img src="./images/11@2x.png" alt="Poppy & Barley">
+          </a>
+          <div class="card-body p-0 pt-1">
+            <h4 class="card-title">Poppy & Barley</h5>
+            <p class="card-subtitle">Jo Malone</p>
+            <p class="card-text mb-0">NT$1,580</p>
+            <button type="button" class="btn p-0 mr-1 text-primary" data-toggle="modal" data-target="#favModal">
+              <i class="fas fa-heart"></i>
+            </button>
+            <button type="button" class="btn p-0 text-primary" data-toggle="modal" data-target="#cartModal">
+              <i class="fas fa-shopping-cart""></i>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="col-6 col-md-3 my-32 my-md-6">
+        <div class="card border-0">
+          <a class="card-img-top" href="#">
+            <img src="./images/12@2x.png" alt="Poppy & Barley">
+          </a>
+          <div class="card-body p-0 pt-1">
+            <h4 class="card-title">Poppy & Barley</h5>
+            <p class="card-subtitle">Jo Malone</p>
+            <p class="card-text mb-0">NT$1,580</p>
+            <button type="button" class="btn p-0 mr-1 text-primary" data-toggle="modal" data-target="#favModal">
+              <i class="fas fa-heart"></i>
+            </button>
+            <button type="button" class="btn p-0 text-primary" data-toggle="modal" data-target="#cartModal">
+              <i class="fas fa-shopping-cart""></i>
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <!--------------Modal-------------->
+    <div class="modal fade" id="favModal" tabindex="-1" role="dialog" aria-labelledby="favModal"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body text-primary text-center">
+            已加入我的收藏
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body text-primary text-center">
+            已加入購物車
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------ pagination ---------------------------->
+    <nav aria-label="Page navigation">
+      <ul class="pagination justify-content-center">
+        <li class="page-item active"><a class="page-link border-0" href="#">1</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#">2</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#">3</a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+
+  <!------------------------ subscription ---------------------------->
+  <div class="subscription d-flex flex-column justify-content-end">
+    <div class="container pb-7">
+      <div class="subscirption-item">
+        <h2 class="mb-3 text-dark">記得<br>訂閱以獲取更多資訊！</h2>
+        <div class="input-group input-group-lg mb-3">
+          <input type="email" class="pl-2 border-primary text-dark" placeholder="Your email address"
+            aria-label="Your email address" aria-describedby="button-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="submit" id="button-addon2">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------------ footer ---------------------------->
+  <footer class="bg-primary">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="copyright d-flex align-items-center py-4">
+        <a class="mr-3" href="/index.html">D'PERFUME</a>
+        <small class="text-white">© 2020. All Rights Reserved.</small>
+      </div>
+      <nav class="navbar navbar-expand-md d-none d-md-flex px-0">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link navbar-text px-2 text-white" href="/product.html">Product</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link navbar-text px-2 text-white" href="#">Blog</a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link navbar-text px-2 text-white" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <script src="./js/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

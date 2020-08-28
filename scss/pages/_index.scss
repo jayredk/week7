@@ -1,0 +1,68 @@
+.jumbotron {
+  background: center/cover no-repeat url(../../images/banner@2x.png);
+  .row {
+    height: 870px;
+    @include media-breakpoint-between(xs, md) {
+      height: 480px;
+    }
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.btn-outline-info {
+  display: block;
+  width: 300px;
+  height: 60px;
+}
+
+.intro {
+  h2 {
+    line-height: 3rem;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+.btn-outline-black {
+  display: block;
+  width: 300px;
+  height: 60px;
+}
+
+.soldOut {
+  background: center/cover no-repeat url(../../images/AppleCiderVinegarCapsule@2x.png);
+  position: relative;
+  p {
+    max-width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+    color: $white;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+}
+
+.subscription {
+  height: 600px;
+  background: center/cover no-repeat url(../../images/subscription@2x.png);
+  .input-group {
+    height: 60px;
+  }
+  input {
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+  }
+  button {
+    font-size: 1rem;
+  }
+}

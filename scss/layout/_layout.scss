@@ -1,0 +1,36 @@
+//header
+.logo {
+  background: center/100% no-repeat url(../../images/d’Perfume@2x.png);
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 128px;
+}
+.cartNum {
+  position: absolute;
+  font-size: 0.75rem;
+  padding: 0 6px;
+  top: -0.5rem;
+  right: -0.75rem;
+  border-radius: 10px;
+}
+
+.hamIcon {
+  font-size: 2rem;
+}
+
+// footer
+.copyright {
+  a {
+    background: center/100% no-repeat url(../../images/d’Perfumew@2x.png);
+    text-indent: 130%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 128px;
+  }
+}
+
+//util
+.nav-link, .navs {
+  font-size: 1.25rem;
+}
