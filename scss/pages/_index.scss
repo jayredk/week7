@@ -1,5 +1,5 @@
 .jumbotron {
-  background: center/cover no-repeat url(../../images/banner@2x.png);
+  background: center/cover no-repeat url(../images/banner@2x.png);
   .row {
     height: 870px;
     @include media-breakpoint-between(xs, md) {
@@ -36,7 +36,7 @@
 }
 
 .soldOut {
-  background: center/cover no-repeat url(../../images/AppleCiderVinegarCapsule@2x.png);
+  background: center/cover no-repeat url(../images/AppleCiderVinegarCapsule@2x.png);
   position: relative;
   p {
     max-width: 100px;
@@ -54,7 +54,7 @@
 
 .subscription {
   height: 600px;
-  background: center/cover no-repeat url(../../images/subscription@2x.png);
+  background: center/cover no-repeat url(../images/subscription@2x.png);
   .input-group {
     height: 60px;
   }
