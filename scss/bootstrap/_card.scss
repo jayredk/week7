@@ -40,6 +40,11 @@
   > .list-group + .card-footer {
     border-top: 0;
   }
+
+  &:hover img {
+    transform: scale(1.2);
+    transition: .6s;
+  }
 }
 
 .card-body {
