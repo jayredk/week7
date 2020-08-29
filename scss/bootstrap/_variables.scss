@@ -74,6 +74,7 @@ $light:         #E0E0E0 !default;
 $dark:          #8D8D8D !default;
 $gray:          #818A91 !default;
 $grayLight:     #A5A5A5 !default;
+$grayDark:      #707070 !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -88,7 +89,8 @@ $theme-colors: map-merge(
     "dark":       $dark,
     "black":      $black,
     "gray":       $gray,
-    "grayLight":       $grayLight
+    "grayLight":  $grayLight,
+    "grayDark":  $grayDark
   ),
   $theme-colors
 );
