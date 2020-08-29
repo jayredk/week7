@@ -36,19 +36,14 @@
 }
 
 .soldOut {
-  background: center/cover no-repeat url(../images/AppleCiderVinegarCapsule@2x.png);
   position: relative;
-  p {
-    max-width: 100px;
+  div {
     position: absolute;
-    top: 50%;
-    left: 0;
+    top: 0;
+    bottom: 0;
     right: 0;
-    margin: auto;
-    transform: translateY(-50%);
-    color: $white;
-    font-size: 1.5rem;
-    line-height: 2.25rem;
+    left: 0;
+    background: rgba(0,0,0,.3);
   }
 }
 
