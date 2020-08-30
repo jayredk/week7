@@ -1,2 +1,2 @@
-# week7
+# HexSchool summer camp week7
  final mission
