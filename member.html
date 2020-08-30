@@ -112,19 +112,19 @@
         <hr class="border-gray">
         <form>
           <div class="form-group row">
-            <label for="account" class="col-3 col-xl-2 col-form-label text-gray">會員帳號</label>
+            <label for="account" class="col-3 col-xl-2 col-form-label text-gray pr-0">會員帳號</label>
             <div class="col-9 col-lg-7">
               <input type="name" class="form-control-plaintext text-gray" id="account" value="email@example.com" readonly>
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputName" class="col-3 col-xl-2 col-form-label text-gray">會員姓名</label>
+            <label for="inputName" class="col-3 col-xl-2 col-form-label text-gray pr-0">會員姓名</label>
             <div class="col-9 col-lg-7">
               <input type="name" class="form-control" id="inputName" placeholder="">
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputGender" class="col-3 col-xl-2 col-form-label text-gray">會員性別</label>
+            <label for="inputGender" class="col-3 col-xl-2 col-form-label text-gray pr-0">會員性別</label>
             <div class="col-3 col-xl-2">
               <select id="inputGender" class="form-control">
                 <option selected>女</option>
@@ -133,25 +133,29 @@
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputMail" class="col-3 col-xl-2 col-form-label text-gray">電子信箱</label>
+            <label for="inputMail" class="col-3 col-xl-2 col-form-label text-gray pr-0">電子信箱</label>
             <div class="col-9 col-lg-7">
               <input type="email" class="form-control" id="inputMail" placeholder="email@example.com">
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputTel" class="col-3 col-xl-2 col-form-label text-gray">手機號碼</label>
+            <label for="inputTel" class="col-3 col-xl-2 col-form-label text-gray pr-0">手機號碼</label>
             <div class="col-9 col-lg-7">
               <input type="tel" class="form-control" id="inputTel">
             </div>
           </div>
           
           <div class="form-group row">
-            <label for="inputAddress1" class="col-3 col-xl-2 col-form-label text-gray">聯絡地址</label>
+            <label for="inputAddress1" class="col-3 col-xl-2 col-form-label text-gray pr-0">聯絡地址</label>
             <div class="col-8">
-              <select class="form-control w-48 mb-3">
-                <option selected>台灣及離島</option>
-                <option>...</option>
-              </select>
+              <div class="form-row">
+                <div class="col-12 col-lg-6">
+                  <select class="form-control mb-3">
+                    <option selected>台灣及離島</option>
+                    <option>...</option>
+                  </select>
+                </div>
+              </div>
               <div class="form-row">
                 <div class="col">
                   <select class="form-control mb-3">
@@ -175,12 +179,16 @@
           </div>
 
           <div class="form-group row mb-5">
-            <label for="inputAddress2" class="col-3 col-xl-2 col-form-label text-gray">聯絡地址</label>
+            <label for="inputAddress2" class="col-3 col-xl-2 col-form-label text-gray pr-0">聯絡地址</label>
             <div class="col-8">
-              <select class="form-control w-48 mb-3">
-                <option selected>台灣及離島</option>
-                <option>...</option>
-              </select>
+              <div class="form-row">
+                <div class="col-12 col-lg-6">
+                  <select class="form-control mb-3">
+                    <option selected>台灣及離島</option>
+                    <option>...</option>
+                  </select>
+                </div>
+              </div>
               <div class="form-row">
                 <div class="col">
                   <select class="form-control mb-3">
@@ -194,9 +202,14 @@
                     <option>...</option>
                   </select>
                 </div>
+                <div class="col-12">
+                  <input type="text" class="form-control mb-2" id="inputAddress2" placeholder="請輸入地址">
+                </div>
+                <div class="col-12">
+                  <button type="button" class="btn btn-primary px-5">確定修改</button>
+                </div>
               </div>
-              <input type="text" class="form-control mb-2" id="inputAddress2" placeholder="請輸入地址">
-              <button type="button" class="btn btn-primary w-48">確定修改</button>
+              
             </div>
           </div>
         </form>
@@ -205,24 +218,24 @@
         <hr class="border-gray">
         <form>
           <div class="form-group row">
-            <label for="inputOldPwd" class="col-3 col-xl-2 col-form-label text-gray">舊密碼</label>
+            <label for="inputOldPwd" class="col-3 col-xl-2 col-form-label text-gray pr-0">舊密碼</label>
             <div class="col-9 col-lg-7">
               <input type="password" class="form-control" id="inputOldPwd">
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputNewPwd" class="col-3 col-xl-2 col-form-label text-gray">新密碼</label>
+            <label for="inputNewPwd" class="col-3 col-xl-2 col-form-label text-gray pr-0">新密碼</label>
             <div class="col-9 col-lg-7">
               <input type="password" class="form-control" id="inputNewPwd">
             </div>
           </div>
           <div class="form-group row mb-40 mb-md-6">
-            <label for="inputComfirm" class="col-3 col-xl-2 col-form-label text-gray">確認新密碼</label>
+            <label for="inputComfirm" class="col-3 col-xl-2 col-form-label text-gray pr-0">確認新密碼</label>
             <div class="col-9 col-lg-7">
               <input type="password" class="form-control mb-2" id="inputComfirm">
             </div>
-            <div class="col-8 offset-2">
-              <button type="button" class="btn btn-primary w-48">變更密碼</button>
+            <div class="col-12 col-md-8 offset-3 offset-md-2">
+              <button type="button" class="btn btn-primary px-5">變更密碼</button>
             </div>
           </div>
           
